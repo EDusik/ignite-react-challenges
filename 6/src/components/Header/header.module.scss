@@ -1,0 +1,20 @@
+.headerContainer {
+  width: 100%;
+}
+
+.headerNavbar {
+  max-width: 1120px;
+  height: 105px;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding: 0 2rem;
+
+  img {
+    transition: filter 0.2s;
+    &:hover {
+      filter: brightness(0.8);
+      cursor: pointer;
+    }
+  }
+}
